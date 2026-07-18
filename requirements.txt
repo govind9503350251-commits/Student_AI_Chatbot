@@ -1,5 +1,4 @@
-gradio
-transformers
-torch
-accelerate
-sentencepiece
+flask
+google-genai
+gunicorn
+python-dotenv
