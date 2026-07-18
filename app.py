@@ -84,7 +84,7 @@ def home():
             client = genai.Client(api_key=api_key)
 
             response = client.models.generate_content(
-                model="gemini-2.0-flash",
+                model="gemini-2.5-flash-lite",
                 contents=f"""
 You are a helpful Student Support AI.
 
